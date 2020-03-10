@@ -5,6 +5,7 @@ By Myeung-Un Kim, Harim Lee, Hyun Jong Yang and Michael S. Ryoo.
 ## Abstract 
 
 Our proposed camera system detects privacy-sensitive blocks, i.e., human face, from extreme low resolution (LR) images, and then dynamically enhances the resolution of only privacy-insensitive blocks, e.g., backgrounds. Keeping all the face blocks to be extreme LR of 15x15 pixels, we can guarantee that human faces are never at high resolution (HR) in any of processing or memory, thus yielding strong privacy protection even from cracking or backdoors.  
+
 Our camera system produces an image on a real-time basis, the human faces of which are in extreme LR while the backgrounds are in HR. We experimentally confirm that our proposed face detection camera system outperforms the state-of-the-art small face detection algorithm, while the robot performs ORB-SLAM2 well even with videos of extreme LR faces. Therefore, with the proposed system, we do not too much sacrifice robot perception performance to protect privacy.
 
 [[Paper]](https://ieeexplore.ieee.org/document/8967681)
