@@ -1,6 +1,6 @@
 # Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution (ORB-SLAM2), IROS'19 (Under Construction)
 
-By Myeung-Un Kim and Harim Lee and Hyun Jong Yang and Michael S. Ryoo.
+By Myeung-Un Kim, Harim Lee, Hyun Jong Yang and Michael S. Ryoo.
 
 ## Abstract 
 
