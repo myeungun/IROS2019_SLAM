@@ -1,4 +1,4 @@
-# Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution (ORB-SLAM2), IROS'19 (Under Construction)
+# Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution (ORB-SLAM2), IROS'19
 
 By Myeung-Un Kim, Harim Lee, Hyun Jong Yang and Michael S. Ryoo.
 
@@ -8,7 +8,7 @@ As smart cameras are becoming ubiquitous in mobile robot systems, there is an in
 
 [[Paper]](https://ieeexplore.ieee.org/document/8967681)
 
-If you feel this useful, please consider cite:
+If you find our work useful in your research, please consider cite:
 ```bibtex
 @inproceedings{kim-iros2019,
   title = {Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution},
