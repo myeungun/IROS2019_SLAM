@@ -21,3 +21,11 @@ Feel free to contact Myeung Un Kim (grownmu@unist.ac.kr) if you have any questio
 
 #### Result of ORB-SLAM2 using high resolution video (top) and our privacy-preserving face detection video (bottom)  
 As shown in the results on the right, we can extract enough features for ORB-SLAM2 in privacy-preserving face detection video. Full video is available at the following link. [[Youtube]](https://youtu.be/_W6e6xPRsM0)
+
+## How to use it
+### Preparation
+First of all, clone the code
+
+```
+git clone https://github.com/jason718/PPAD.git
+```
