@@ -20,4 +20,5 @@ Feel free to contact Myeung Un Kim (grownmu@unist.ac.kr) if you have any questio
 ![image](https://user-images.githubusercontent.com/26617052/76276344-ed27a100-62c8-11ea-82fe-0337c6a25aba.png)
 
 Result of ORB-SLAM2 using high resolution video (top) and our privacy-preserving face detection video (bottom)
+
 Full video is available at the following link. [[Youtube]](https://youtu.be/_W6e6xPRsM0)
