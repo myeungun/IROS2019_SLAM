@@ -112,3 +112,12 @@ There are two things to consider carefully in this launch file:
 ```
 $(find orb_slam2_ros)/orb_slam2/config/ZedStereoHD.yaml”
 ```
+#### Location of ZED camera Setting files
+```
+/src/zed-ros-wrapper/zed_wrapper/launch/zed.launch
+```
+Considerations in the above file are the resolution and FPS of the video from the ZED camera.
+```
+<arg name=”resolution”	default=”2” />
+<arg name=”frame_rate”	default=”30” />
+```
