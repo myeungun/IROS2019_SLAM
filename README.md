@@ -41,7 +41,19 @@ git clone https://github.com/myeungun/ORB-SLAM2.git
 ![image](https://user-images.githubusercontent.com/26617052/76387645-c3df4180-63aa-11ea-8498-318e8ef64d59.png)
 
 #### 1. On Xavier
-- to run ZED camera
+- To run ZED camera
 ```
 roslaunch zed_wrapper zed.launch
+```
+- To run our face detection network and publish the results
+```
+rosrun preserve-network network_multiple_bounding_with_ZED_stereo_odometry.py
+```
+or 
+```
+rosrun preserve-network network_with_ZED_for_stereo_odometry
+```
+- To run ORB-SLAM2 and publish the results
+```
+roslaunch orb_slam2_ros orb_slam2_zed_stereo_with_network.launch
 ```
