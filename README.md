@@ -57,3 +57,20 @@ rosrun preserve-network network_with_ZED_for_stereo_odometry
 ```
 roslaunch orb_slam2_ros orb_slam2_zed_stereo_with_network.launch
 ```
+
+#### 2. On the remote PC
+- To run ROS
+```
+roscore
+```
+- To receive a video from Xavier
+```
+rosrun preserve-network result_subscribe_view_with_Buffer.py
+```
+or 
+```
+rosrun orb_slam2_hr orb_slam2_subscriber.py
+```
+First one is only for face detection network results, and second one is for visual odometry results by ORB_SLAM2.
+
+- To remotely control Turtlebot
