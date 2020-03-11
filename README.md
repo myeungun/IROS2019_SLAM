@@ -74,3 +74,17 @@ rosrun orb_slam2_hr orb_slam2_subscriber.py
 First one is only for face detection network results, and second one is for visual odometry results by ORB_SLAM2.
 
 - To remotely control Turtlebot
+```
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
+#### 3. On Turtlebot raspberry pi
+- To remotely control Turtlebot
+```
+roslaunch turtlebot3_bringup turtlebot3_robot.launch
+```
+- To match time synch, it is necessary to be connected to the Internet.
+```
+sudo ntpdate 1.ro.pool.ntp.org
+sudo timedatectl set-timezone Asia/Seoul
+```
