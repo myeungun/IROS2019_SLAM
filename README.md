@@ -39,3 +39,9 @@ git clone https://github.com/myeungun/ORB-SLAM2.git
 ### Composition of the system
 
 ![image](https://user-images.githubusercontent.com/26617052/76387645-c3df4180-63aa-11ea-8498-318e8ef64d59.png)
+
+#### 1. On Xavier
+- to run ZED camera
+```
+roslaunch zed_wrapper zed.launch
+```
