@@ -30,8 +30,12 @@ As shown in the results on the right, we can extract enough features for ORB-SLA
 
 ## How to use it
 ### Preparation
-First of all, clone the code
+First of all, clone the code.
 
 ```
 git clone https://github.com/myeungun/ORB-SLAM2.git
 ```
+
+### Composition of the system
+
+![image](https://user-images.githubusercontent.com/26617052/76387645-c3df4180-63aa-11ea-8498-318e8ef64d59.png)
