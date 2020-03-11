@@ -88,3 +88,27 @@ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 sudo ntpdate 1.ro.pool.ntp.org
 sudo timedatectl set-timezone Asia/Seoul
 ```
+
+### Setting files
+#### Location of ORB-SLAM2 Setting files
+- ZED Camera
+```
+/src/orb_slam_2_ros/orb_slam2/config
+```
+- Launch file
+```
+/src/orb_slam_2_ros/ros/launch
+```
+There are two things to consider carefully in this launch file:
+1. Specifying which "topic" to "subscribe"
+2. Specifying which "camera" to use  
+"orb_slam2_zed_stereo_with_network.launch" file is configured as follows:
+1. "subscribe" the results of "face detection network"
+```
+<remap from="/image_left/image_color_rect" to="/preserve_network/left/result_only_Network" />
+<remap from="/image_right/image_color_rect" to="preserve_network/right/result_only_Network" />
+```
+2. use "ZED camera"
+```
+$(find orb_slam2_ros)/orb_slam2/config/ZedStereoHD.yaml”
+```
