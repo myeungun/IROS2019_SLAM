@@ -19,7 +19,7 @@ If you find our work useful in your research, please consider cite:
   year = {2019}
 }
 ```
-Feel free to contact Myeung Un Kim (grownmu@unist.ac.kr) if you have any questions!
+Feel free to contact Myeung Un Kim (myoungunkim92@gmail.com) if you have any questions!
 
 ## Some Results
 
